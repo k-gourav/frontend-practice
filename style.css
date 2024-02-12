@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+a{
+    font-weight: 600;
+}
+h2{
+    font-family: "DM Serif Display", serif;
+}
+.logoTitle{
+    font-size: 1.8rem;
+}
+.headerElement{
+    position: fixed;
+    top: 0;
+    padding: 8px;
+    border-bottom: 2px solid;
+    background-color: white;
+    width: 100%;
+}
+.topLinks{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.topLinks a{
+    text-decoration: none;
+    color: black;
+
+}
+.topLinks a:hover{
+    text-decoration: underline;
+}
+.topLinks a:active{
+    border: 2px dashed blue;
+}
+.logoTitle{
+    padding: 4px 0;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 1.5rem;
+}
+.navList li{
+    padding: 4px 2px;
+    font-size: 1.16rem;
+}
+.hamburgerIcon{
+    position: absolute;
+    right: 50px;
+    background-color: white;
+    border: none;
+    display: none;
+}
+.hamburgerIcon img{
+    display: block;
+    width: 40px;
+}
+.heroSection{
+    background-color: rgb(250, 235, 215);
+    padding: 6rem 0rem;
+    border-bottom: 2px solid;
+}
+.mainElement{
+    margin-top: 3.68rem;
+}
+.heroContainer{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.heroContainer img{
+    width: 620px;
+}
+.heroContent{
+    width: 34%;
+    padding: 3.5rem 0;
+}
+.heroContent h2{
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+.heroContent p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.heroLink{
+    padding: 12px;
+    border: 2px solid;
+    text-decoration: none;
+    color: black;
+    margin-right: 8px;
+}
+.heroBlockLink{
+    background-color: white;
+
+}
+.heroLink:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid;
+}
+.heroLink:visited{
+    outline: 2px dashed blue;
+}
+.heroLink:active{
+    outline: 2px dashed blue;
+}
+.useContent{
+    font-size: 2.2rem;
+    margin: 2.5rem auto;
+    width: 40%;
+    text-align: center;
+}
+.useSubContent{
+    width: 28%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.5rem;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+.useBanner{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: 0 auto;
+}
+.useBanner div{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    padding: 12px;
+    width: 38%;
+    gap: 2rem;
+}
+.useBanner div img{
+    width: 100px;
+    height: 100px;
+}
+.useBannerContent{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.getStarted{
+    width: 25%;
+    margin: 5rem auto 2rem auto;
+}
+.getStartedHead{
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+.getStarted a{
+    display: block;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    margin: 1.3rem auto;
+    border: 2px solid;
+}
+.getStarted a:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid;
+}
+.getStarted a:active{
+    outline: 2px dashed blue;
+}
+.footerElement{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+}
+.navListFooter{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 0.8rem;
+    padding-top: 1.5rem;
+}
+.navListFooter a{
+    text-decoration: none;
+    color: white;
+}
+.navListFooter a:hover{
+    text-decoration: underline;
+}
+.navListFooter a:active{
+    outline: 2px dashed blue;
+}
