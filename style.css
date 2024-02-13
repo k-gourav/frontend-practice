@@ -86,6 +86,7 @@ h2{
 }
 .heroContainer img{
     width: 620px;
+    height: 100%;
 }
 .heroContent{
     width: 34%;
